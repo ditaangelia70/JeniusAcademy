@@ -1,0 +1,319 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+header {
+    background-color: #ffcccc;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #333333;
+}
+
+.feature {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.package {
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* styles.css */
+
+/* Tambahkan aturan CSS untuk membuat halaman responsif */
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav {
+        margin-top: 20px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav ul li {
+        display: block;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
+
+/* Aturan CSS tambahan untuk membuat layout responsif */
+@media screen and (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .feature, .package, .question {
+        padding: 10px;
+    }
+}
+
+/* Aturan CSS untuk membuat gambar responsive */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* styles.css */
+
+/* Gaya untuk halaman Daftar */
+#register {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#register form {
+    display: flex;
+    flex-direction: column;
+}
+
+#register label {
+    margin-bottom: 8px;
+}
+
+#register input {
+    margin-bottom: 16px;
+    padding: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+}
+
+#register button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+}
+
+#register button:hover {
+    background-color: #45a049;
+}
+
+/* styles.css */
+
+/* Gaya untuk halaman Langganan */
+#subscription {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.package {
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.package h3 {
+    margin-top: 0;
+}
+
+.package ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.package p, .package ul {
+    margin: 0;
+    margin-bottom: 10px;
+}
+/* styles.css */
+
+/* Gaya responsif untuk halaman Langganan */
+@media screen and (max-width: 768px) {
+    #subscription {
+        padding: 10px;
+    }
+
+    .package {
+        padding: 10px;
+    }
+}
+/* styles.css */
+
+/* Gaya untuk halaman Testimoni */
+#testimonials {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+}
+
+.testimonial img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.testimonial h3 {
+    margin: 10px 0 5px;
+}
+
+.testimonial p {
+    margin: 0 0 10px;
+}
+
+.testimonial blockquote {
+    margin: 0;
+    font-style: italic;
+    color: #555555;
+}
+/* styles.css */
+
+/* Gaya responsif untuk halaman Testimoni */
+@media screen and (max-width: 768px) {
+    #testimonials {
+        padding: 10px;
+    }
+
+    .testimonial {
+        padding: 10px;
+    }
+
+    .testimonial img {
+        width: 80px;
+        height: 80px;
+    }
+}
+/* styles.css */
+
+/* Gaya untuk halaman Pelajari */
+#learn {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    max-width: 100%;
+    height: auto;
+}
+
+.teacher-info, .learning-objectives, .materials {
+    margin-bottom: 20px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* styles.css */
+
+/* Gaya responsif untuk halaman Pelajari */
+@media screen and (max-width: 768px) {
+    #learn {
+        padding: 10px;
+    }
+
+    .teacher-info, .learning-objectives, .materials {
+        padding: 10px;
+    }
+
+    h3 {
+        font-size: 1.2em;
+    }
+
+    ul {
+        margin-left: 15px;
+    }
+}
+
